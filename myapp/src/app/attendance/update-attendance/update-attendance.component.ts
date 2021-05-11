@@ -59,4 +59,7 @@ export class UpdateAttendanceComponent implements OnInit {
   public goToHomePage(){
     this.router.navigate(['a-home-page'])
   }
+  public goToBackToHome(){
+    this.router.navigate(['fachome'])
+  }
 }

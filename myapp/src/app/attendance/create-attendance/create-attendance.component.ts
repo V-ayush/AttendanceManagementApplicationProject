@@ -59,4 +59,7 @@ export class CreateAttendanceComponent implements OnInit {
     this.router.navigate(['a-home-page'])
   }
   // #endregion Public Methods (4)
+  public goToBackToHome(){
+    this.router.navigate(['fachome'])
+  }
 }

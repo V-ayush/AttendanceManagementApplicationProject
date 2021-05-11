@@ -99,5 +99,14 @@ get mobileNumber(){
 get fatherMobileNumber(){
   return this.updateStudentForm.get('fatherMobileNumber')
 }
+goToHome(){
+  this.router.navigate(['fachome'])
+}
+goBackToHome(){
+  this.router.navigate(['fac-home'])
+}
+gotoLoginPage(){
+  this.router.navigate(['login'])
+ }
 
 }

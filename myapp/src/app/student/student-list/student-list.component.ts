@@ -68,5 +68,14 @@ export class StudentListComponent implements OnInit {
   gotoStudentList() {
     this.router.navigate(['/students']);
 }
+goToHome(){
+  this.router.navigate(['home-page'])
+}
+goBackToHome(){
+  this.router.navigate(['fac-home'])
+}
+gotoLoginPage(){
+  this.router.navigate(['login'])
+ }
 
 }

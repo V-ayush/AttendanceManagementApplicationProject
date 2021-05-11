@@ -31,6 +31,15 @@ export class StudentDetailsComponent implements OnInit {
   gotoaddstudent(){
     this.router.navigate(['/add']);
   }
+  goToHome(){
+    this.router.navigate(['fachome'])
+  }
+  goBackToHome(){
+    this.router.navigate(['fac-home'])
+  }
+  gotoLoginPage(){
+    this.router.navigate(['login'])
+   }
   }
 
 

@@ -43,6 +43,7 @@
   }
   .nav-link{
       color: grey;
+      cursor : pointer;
   }
   .col-sm-3{
     padding-top: 100px;

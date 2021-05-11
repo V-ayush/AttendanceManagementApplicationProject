@@ -21,3 +21,10 @@ input .ng-invalid{
 input:focus::placeholder {
     color: transparent;
   }
+#h{
+    margin-left:1230px;
+}
+.nav-link
+{
+    cursor: pointer;
+}

@@ -96,6 +96,15 @@ export class CreateStudentComponent implements OnInit {
   goToAddstudent(){
     this.router.navigate(['add']);
   }
+  goToHome(){
+    this.router.navigate(['home-page'])
+  }
+  goBackToHome(){
+    this.router.navigate(['fac-home'])
+  }
+  gotoLoginPage(){
+    this.router.navigate(['login'])
+   }
 }
   
 

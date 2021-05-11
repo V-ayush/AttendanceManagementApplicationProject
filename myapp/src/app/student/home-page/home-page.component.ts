@@ -21,6 +21,13 @@ export class HomePageComponent implements OnInit {
     this.router.navigate(['update/:studentId'])
   }
   goToHome(){
-    this.router.navigate(['home-sub-page'])
+    this.router.navigate(['home-page'])
   }
+   
+   goBackToHome(){
+    this.router.navigate(['fac-home'])
+  }
+  gotoLoginPage(){
+    this.router.navigate(['login'])
+   }
 }
